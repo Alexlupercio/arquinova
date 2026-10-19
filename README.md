@@ -1,3 +1,4 @@
+
 # ArquiNova — Estudio de Arquitectura
 
 Proyecto web responsivo desarrollado como parte de la Unidad 1 de la asignatura Aplicaciones Web de la Universidad Politécnica Salesiana.
@@ -20,12 +21,13 @@ El sitio cuenta con cinco secciones: Inicio, Proyectos, Servicios, Nosotros y Co
 - `css/styles.css`: estilos y diseño responsivo.
 - `js/main.js`: funcionalidades interactivas.
 - `img/`: imágenes utilizadas en el sitio web.
+- `evidencias/`: capturas de pantalla del diseño responsivo.
 
 ## Cómo ejecutar el proyecto
 
 1. Descargar o clonar el repositorio.
 2. Abrir la carpeta del proyecto.
-3. Ejecutar `index.html` en un navegador web.
+3. Abrir `index.html` en un navegador web.
 
 No se requiere instalar dependencias adicionales.
 
@@ -36,9 +38,10 @@ No se requiere instalar dependencias adicionales.
 - Filtros de proyectos.
 - Validación de campos del formulario.
 - Ampliación del navegador al 200 %.
-- Comprobación del contraste principal.
+- Comprobación del contraste principal mediante WebAIM.
 - Validación HTML5 y CSS3 sin errores.
-- Revisión visual del diseño en dispositivos móviles y tablets.
+- Revisión visual del diseño en dispositivos móviles, tablets y computadoras.
+- Comprobación de ausencia de desplazamiento horizontal en móvil.
 
 ## Consideraciones
 
@@ -46,8 +49,18 @@ ArquiNova es un proyecto académico ficticio. Las imágenes son representaciones
 
 El formulario realiza validaciones en el navegador, pero no envía datos a un servidor.
 
-## Pendiente
+## Enlaces del proyecto
 
-- Publicación mediante GitHub Pages.
-- Capturas definitivas de 375, 768 y 1440 px.
-- Informe técnico de la actividad.
+- Repositorio: https://github.com/Alexlupercio/arquinova
+- Sitio web: https://alexlupercio.github.io/arquinova/
+- Evidencias: https://github.com/Alexlupercio/arquinova/tree/main/evidencias
+
+## Evidencias del diseño responsivo
+
+Se realizaron pruebas de visualización en tres tamaños de pantalla:
+
+- **Móvil:** 375 × 812 px.
+- **Tablet:** 768 × 1024 px.
+- **Computadora:** 1440 × 900 px.
+
+Las capturas completas están disponibles en la carpeta `evidencias` del repositorio.
